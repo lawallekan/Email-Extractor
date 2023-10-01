@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Extractor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Email Extractor</h1>
+        <div class="input-container">
+            <textarea id="inputText" placeholder="Enter text here"></textarea>
+            <button id="extractBtn">Extract Emails</button>
+        </div>
+        <div class="filter-container">
+            <input type="text" id="domainFilter" placeholder="Filter by Domain">
+            <input type="text" id="keywordFilter" placeholder="Filter by Keyword">
+        </div>
+        <div id="outputContainer">
+            <h2>Extracted Emails:</h2>
+            <div class="output-controls">
+                <button id="sortAlphabeticallyBtn" title="Sort Alphabetically">A-Z</button>
+                <button id="sortByDomainBtn" title="Sort by Domain">Domain</button>
+                <button id="sortByLengthBtn" title="Sort by Length">Length</button>
+            </div>
+            <textarea id="outputText" readonly></textarea>
+            <div id="downloadBtns">
+                <button id="csvBtn">Download as CSV</button>
+                <button id="txtBtn">Download as TXT</button>
+                <button id="excelBtn">Download as Excel</button>
+                <button id="jsonBtn">Download as JSON</button>
+                <button id="xmlBtn">Download as XML</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
