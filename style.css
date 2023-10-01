@@ -1,0 +1,106 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-container textarea {
+    width: 70%;
+    height: 150px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-container input {
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#outputContainer {
+    display: none;
+}
+
+.output-controls {
+    margin-bottom: 10px;
+}
+
+.output-controls button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#downloadBtns {
+    margin-top: 10px;
+}
+
+#downloadBtns button {
+    margin-right: 10px;
+}
+
+#outputText {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+#csvBtn,
+#txtBtn {
+    background-color: #4CAF50;
+}
+
+#excelBtn {
+    background-color: #2196F3;
+}
+
+#jsonBtn {
+    background-color: #FFC107;
+}
+
+#xmlBtn {
+    background-color: #E91E63;
+}
